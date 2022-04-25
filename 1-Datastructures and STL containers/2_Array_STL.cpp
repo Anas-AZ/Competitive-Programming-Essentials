@@ -52,6 +52,17 @@ int main()
 	// For Each Loop
 	for(int x: fives)
 		cout<<x+5<<" ";
+	cout<<endl;
+
+	//Get ith element
+	cout<<arr.at(5)<<endl;
+
+
+	//get the size of array
+	cout<<arr.size()<<endl;
+
+	//get the element at front and back
+	cout<<arr.front()<<" "<<arr.back()<<endl;
 
 	return 0;
 }
